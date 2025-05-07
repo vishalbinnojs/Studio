@@ -367,7 +367,9 @@ margin-bottom:5px;
         margin-top:1rem;
     }
 
-     /* footer section */
+                  /* footer section */
+
+                  
     footer{
         padding:3rem 5rem;
         background:var(--secondaryColorBackground--);
@@ -442,3 +444,4 @@ margin-bottom:5px;
      font-weight:400;
    }
 
+   
