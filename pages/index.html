@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="/imgs/logo.png" alt="logo" />
+      </div>
+      <div class="links">
+        <a class="active" href="#">Home</a>
+        <a href="#">How It Works</a>
+        <a href="#">Features</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div class="auth">
+        <button class="login">Login</button>
+        <button class="signup">SignUp</button>
+        <div>
+          <a class="profile-link" href="#">
+            <i style="margin-right: 3px"
+              class="ri-account-circle-line profile-img"></i>
+            </a>
+        </div>
+      </div>
+      <i class="ri-menu-fold-line" id="menu-toggle"></i>
+    </nav>
+
+    <!-- search container -->
+     <section class="hero">
+
+       <div class="search-Container">
+         <div class="text">
+        <h2>Where Artists, Technicians & Studios Meet to Create</h2>
+        <p class="para">
+          Book your next creative session - smart,synchronized, and
+          studio-ready.
+        </p>
+      </div>
+      <form class="search-bar" action="#" method="GET">
+        <div class="search-field">
+          <i class="ri-map-pin-line"></i>
+          <input type="text" name="location" placeholder="Location" required />
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="search-field">
+          <i class="ri-calendar-2-line"></i>
+          <input type="date" name="date" required />
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="search-field">
+          <i class="ri-timer-line"></i>
+          <input type="time" name="time" required />
+        </div>
+
+        <button type="submit" class="search-button">Search</button>
+      </form>
+
+      <p class="para">
+        Find the perfect Studio. Connect with creators, and bring your vision to
+        life.
+      </p>
+    </div>
+  </section>
+    
+
+    <!-- section studio box -->
+
+     <section class="studio-box">
+        <div class="title">
+            <h3>Our Feature Listing</h3>
+            <span>View All</span>
+        </div>
+        <div class="studio-items-box">
+            <div class="item item1">
+                <div class="img-box">
+                    <img src="/imgs/pexels-photo-3767442.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <div class="rating-box">
+                        <span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            (5)</span>
+                        <span class="rating">68 Ratings</span>
+                    </div>
+                    <div class="studio-info">
+                        <h5>Icon Studio Inn</h5>
+                        <p>Artists search for available studios based on date, time and gear. They request to join a
+                            session or create a new one.</p>
+                        <h6>&#8364 99.00</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item item2">
+                <div class="img-box">
+                    <img src="/imgs/Studio 2.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <div class="rating-box">
+                        <span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            (5)</span>
+                        <span class="rating">68 Ratings</span>
+                    </div>
+                    <div class="studio-info">
+                        <h5>Soundlab Studios</h5>
+                        <p>Artists search for available studios based on date, time and gear. They request to join a
+                            session or create a new one.</p>
+                        <h6>&#8364 99.00</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="item item3">
+                <div class="img-box">
+                    <img src="/imgs/pexels-photo-3767442.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <div class="rating-box">
+                        <span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            (5)</span>
+                        <span class="rating">68 Ratings</span>
+                    </div>
+                    <div class="studio-info">
+                        <h5>Diamond Studio</h5>
+                        <p>Artists search for available studios based on date, time and gear. They request to join a
+                            session or create a new one.</p>
+                        <h6>&#8364 99.00</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+   
+
+                 <!-- features section -->
+    <section class="features">
+        <h3>More Than a Booking Tool - It's a Creative Network</h3>
+        <div class="content-box">
+            <div class="content1">
+                <div class="txts">
+                    <h5><img src="/imgs/calender.png" alt="" width="15px;"> Smart Calender Sync</h5>
+                    <p>Book sessions with synced schedule for artists, techs and studios.</p>
+                </div>
+                <div class="txts">
+                    <h5><img src="/imgs/handshake.png" alt="" width="15px;" style="background-color:#FD8000;">
+                        Triple-Sided Matching</h5>
+                    <p>Sessions are confirmed only when all parties agree.</p>
+                </div>
+                <div class="txts">
+                    <h5><img src="/imgs/messaging.png" alt="" width="15px;"> Integrated Messaging</h5>
+                    <p>Sessions are confirmed only when all parties agree.</p>
+                </div>
+                <div class="txts">
+                    <h5><img src="/imgs/rate.png" alt="" width="15px;"> Flexible Rates</h5>
+                    <p>Studio & technician hourly pricing made transparent.</p>
+                </div>
+                <div class="txts">
+                    <h5><img src="/imgs/headphone.png"
+                            alt="" width="10px;" style="background-color:transparent; mix-blend-mode:color-burn;">
+                        Gear-Ready Studios</h5>
+                    <p>View equipment before booking - no surprises.</p>
+                </div>
+                <div class="txts">
+                    <h5><img src="/imgs/notification-icon.png" alt="" width="20px;"
+                            style="background-color:transparent; mix-blend-mode:color-burn;">Notifications & Alerts</h5>
+                    <p>Real-time updates on session status and new requests.</p>
+                </div>
+            </div>
+
+            <div class="content2">
+                <img src="/imgs/fle-1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- booking section -->
+ 
+    <section class="booking-box">
+        <h3>How Booking Works - Smart, Synchronized, Seamless</h3>
+        <div class="main-box">
+            <div class="box">
+                <div class="img-box">
+                    <img src="/imgs/music-icon.png" alt="">
+
+                </div>
+
+                <h5>Step 1: The Artist Starts</h5>
+
+                <p>Artists search for available studios based on the date, 
+                    time and gear. They request to join a session
+                    or
+                    create a new one.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <div class="img-box">
+                    <img src="/imgs/headphone-icon.png" alt="">
+
+                </div>
+
+                <h5>Step 1: The Technician Joins</h5>
+
+                <p>Technicians explore sessions that have an artist or available slots. 
+                    They accept and request to join
+                    the same session.
+                </p>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="/imgs/todo-icon.png" alt="">
+
+                </div>
+
+                <h5>Step 1: The Artist Starts</h5>
+
+                <p>Once a studio,artist, and technician are all matched in the same time slot,
+                     the session is
+                    auto-confirmed or maually approved by the studio.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+           <!-- rating section -->
+    <section class="rating-section">
+        <h3>Trusted by Creators & Studios Alike</h3>
+        <div class="rating-box">
+            <div class="box">
+                <div class="content-box2">
+                    <div class="rate">
+                        <span style="display: block;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </span>
+                        <h6>Alex, <span style="font-size: 1em; font-weight:400;">Rap Artist</span></h6>
+                    </div>
+                   
+                     <img src="/imgs/quotes-icon.png" alt="">
+
+                </div>
+                <p>"Finally a platform that gets how artists, engineers, and studios work together.
+                     Booking is smoother than ever!"</p>
+            </div>
+
+
+            <div class="box">
+                <div class="content-box2">
+                    <div class="rate">
+                        <span style="display: block;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </span>
+                        <h6>Nina, <span style="font-size: 1em; font-weight:400;">Sound Technician</span></h6>
+                    </div>
+                   
+                     <img src="/imgs/quotes-icon.png" alt="">
+
+                </div>
+                <p>"I used to spend hours coordinating sessions.
+                    Now it's just a few clicks and I'm booked!"</p>
+            </div>
+
+            <div class="box">
+                <div class="content-box2">
+                    <div class="rate">
+                        <span style="display: block;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </span>
+                        <h6>Diamond Studios, <span style="font-size: 1em; font-weight:400;">Studio Owner</span></h6>
+                    </div>
+                   
+                     <img src="/imgs/quotes-icon.png" alt="">
+
+                </div>
+                <p>"This helps us keep our studio calender full and
+                    manage all incoming requests in one place."</p>
+            </div>
+        </div>
+    </section> 
+
+  <!-- footer -->
+  
+  <footer >
+    <div class="footer-box">
+    <div class="box-child-1">
+        
+            <img src="/imgs/Logo2.png" alt="">
+        
+    </div>
+    <div class="box-child">
+        <h5>
+            Company
+        </h5>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog/News</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+    </div>
+    <div class="box-child">
+        <h5>
+            Explore
+        </h5>
+        <ul>
+            <li><a href="#">Browse Studios</a></li>
+            <li><a href="#">Browse Technicians</a></li>
+            <li><a href="#">Browse Artists</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Popular Locations</a></li>
+            
+        </ul>
+    </div>
+    <div class="box-child-3">
+        <h5>Subscribe to our Newsletter</h5>
+        <div class="ip-box">
+            <input type="text" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+
+        </div>
+        <p>Subscribe to our monthly newsletter to get latest
+            news
+        </p>
+        
+    </div>
+</div>
+  </footer> 
+
+<script src="/script.js"></script>
+  </body>
+</html>
