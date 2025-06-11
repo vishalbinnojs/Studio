@@ -99,6 +99,7 @@ nav .auth button {
 
 .auth button:hover {
   opacity: 0.9;
+   box-shadow:0px 8px 12px #333;
 }
 
 .auth .profile-link {
