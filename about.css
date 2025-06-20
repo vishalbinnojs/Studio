@@ -15,8 +15,8 @@
   --secondarycolor: #f1c392;
   --secondaryColorBackground: rgb(214, 210, 210);
   --backgroundcolor: #d1cdcb;
-  --shadowcolor: #C86500;
   --tertiaryBgColor:rgb(245, 220, 224);
+  --btnHoverBgColor:  #e77400;
 }
 
 .hero2{
@@ -190,8 +190,8 @@ nav #menu-toggle {
 
   nav .auth.show {
     display: flex;
-    top: 14.2rem;
     right: 0;
+    top: 14.2rem;
   }
 
   nav {
@@ -612,6 +612,9 @@ input::placeholder {
     font-weight:600;
     font-size: .6rem;
     cursor: pointer;
+}
+.ip-box button:hover{
+  background-color:var(--btnHoverBgColor);
 }
 
 

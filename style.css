@@ -15,7 +15,7 @@
   --secondarycolor: #f1c392;
   --secondaryColorBackground: rgb(214, 210, 210);
   --backgroundcolor: #d1cdcb;
-  --shadowcolor: #C86500;
+  --btnHoverBgColor:  #e77400;
 }
 
 body,
@@ -827,6 +827,7 @@ overflow:hidden;
     margin:1rem 0;
     display:flex;
     justify-content:center;
+    z-index:100;
 }
 
 
@@ -859,8 +860,11 @@ input::placeholder {
     font-weight:600;
     font-size: .6rem;
     cursor: pointer;
+    transition: background-color .3s ease;
 }
-
+.ip-box button:hover{
+  background-color:var(--btnHoverBgColor);
+}
 
 .box-child-3 p {
     font-size: .6rem;
